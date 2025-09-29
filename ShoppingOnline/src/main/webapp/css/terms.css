@@ -1,0 +1,140 @@
+/* Phần tiêu đề Giới thiệu */
+.intro-title {
+   padding: 40px 0;
+   text-align: center;
+}
+
+
+.stars {
+   margin-bottom: 10px;
+}
+
+
+.star {
+   font-size: 2rem;
+   color: rgba(169, 169, 169, 0.7); /* Ngôi sao hai bên có màu xám trong suốt */
+   margin: 0 5px;
+}
+
+
+.star.middle {
+   font-size: 2.5rem; /* Ngôi sao giữa lớn hơn */
+   color: gold; /* Ngôi sao giữa màu vàng */
+}
+
+
+.title {
+   font-size: 3rem;
+   font-weight: bold;
+   color: #004b87;
+   margin-bottom: 20px;
+}
+
+
+.line {
+   width: 80px;
+   height: 3px;
+   background-color: #007bff;
+   margin: 10px auto;
+}
+
+
+.line-under {
+   width: 100px;
+   height: 2px;
+   background-color: #007bff;
+   margin: 10px auto;
+}
+
+
+/* Phần chứa nội dung điều khoản */
+.terms-wrapper {
+   background-color: #ffffff;
+   padding: 40px;
+   border-radius: 12px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+   color: #333;
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.8;
+}
+
+
+/* Tiêu đề điều khoản */
+.terms-title {
+   font-size: 2.5rem; /* Tăng cỡ chữ */
+   font-weight: bold;
+   color: #004b87;
+   margin-bottom: 20px;
+}
+
+
+/* Định dạng các tiêu đề điều khoản */
+.terms-wrapper h4 {
+   font-size: 1.3rem; /* Tăng kích thước */
+   font-weight: 600;
+   color: #004b87;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+
+/* Định dạng danh sách điều khoản */
+.terms-wrapper ul {
+   padding-left: 1.2rem;
+   list-style-type: disc;
+}
+
+
+.terms-wrapper ul li {
+   font-size: 1.1rem; /* Tăng kích thước chữ */
+   margin-bottom: 10px;
+}
+
+
+/* Liên kết trong điều khoản */
+.terms-wrapper a {
+   color: #007bff;
+   text-decoration: none;
+}
+
+
+.terms-wrapper a:hover {
+   text-decoration: underline;
+}
+
+
+/* Phần cảm ơn cuối cùng */
+.terms-wrapper .thankyou {
+   font-weight: bold;
+   margin-top: 30px;
+   color: #d9534f;
+   font-size: 1.2rem; /* Điều chỉnh kích thước cảm ơn */
+}
+
+
+/* Định dạng icon nếu có */
+.terms-wrapper .emoji {
+   font-size: 1.6rem;
+   margin-right: 5px;
+}
+
+
+/* Định dạng phần email và hotline */
+.terms-wrapper p {
+   font-size: 1.1rem;
+   line-height: 1.6;
+}
+
+
+.terms-wrapper .contact-info {
+   color: #004b87;
+   font-weight: 600;
+}
+
+
+
+
+
+
+
+
